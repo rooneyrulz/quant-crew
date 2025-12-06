@@ -6,9 +6,12 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "crewai==1.5.0",
+    "fastapi>=0.124.0",
     "litellm==1.80.0",
     "pydantic==2.12.4",
     "pydantic-settings==2.11.0",
     "python-dotenv==1.2.1",
+    "python-json-logger>=4.0.0",
     "tavily-python==0.7.13",
+    "uvicorn[standard]>=0.38.0",
 ]

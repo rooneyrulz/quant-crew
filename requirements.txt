@@ -1,6 +1,9 @@
-crewai==1.5.0
-litellm==1.80.0
-tavily-python==0.7.13
-python-dotenv==1.2.1
-pydantic==2.12.4
-pydantic-settings==2.11.0
+fastapi
+uvicorn[standard]
+crewai
+litellm
+tavily-python
+python-dotenv
+pydantic
+pydantic-settings
+python-json-logger
